@@ -22,10 +22,12 @@
 		9F1BBD7F2072549F00C25067 /* nssl0043.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F1BBD752072549F00C25067 /* nssl0043.jpg */; };
 		9F1BBD802072549F00C25067 /* nssl0033.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F1BBD762072549F00C25067 /* nssl0033.jpg */; };
 		9F1BBD812072549F00C25067 /* nssl0034.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F1BBD772072549F00C25067 /* nssl0034.jpg */; };
+		9F7C5E142073290600E5EBEE /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7C5E122073290600E5EBEE /* DetailViewController.swift */; };
+		9F7C5E152073290600E5EBEE /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F7C5E132073290600E5EBEE /* DetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9F1BBD582072506100C25067 /* Project1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F1BBD582072506100C25067 /* Project3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F1BBD5B2072506100C25067 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F1BBD5D2072506100C25067 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9F1BBD602072506100C25067 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -42,6 +44,8 @@
 		9F1BBD752072549F00C25067 /* nssl0043.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0043.jpg; sourceTree = "<group>"; };
 		9F1BBD762072549F00C25067 /* nssl0033.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0033.jpg; sourceTree = "<group>"; };
 		9F1BBD772072549F00C25067 /* nssl0034.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0034.jpg; sourceTree = "<group>"; };
+		9F7C5E122073290600E5EBEE /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		9F7C5E132073290600E5EBEE /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +70,7 @@
 		9F1BBD592072506100C25067 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9F1BBD582072506100C25067 /* Project1.app */,
+				9F1BBD582072506100C25067 /* Project3.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -76,6 +80,8 @@
 			children = (
 				9F1BBD5B2072506100C25067 /* AppDelegate.swift */,
 				9F1BBD5D2072506100C25067 /* ViewController.swift */,
+				9F7C5E122073290600E5EBEE /* DetailViewController.swift */,
+				9F7C5E132073290600E5EBEE /* DetailViewController.xib */,
 				9F1BBD5F2072506100C25067 /* Main.storyboard */,
 				9F1BBD622072506200C25067 /* Assets.xcassets */,
 				9F1BBD642072506200C25067 /* LaunchScreen.storyboard */,
@@ -105,9 +111,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9F1BBD572072506100C25067 /* Project1 */ = {
+		9F1BBD572072506100C25067 /* Project3 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9F1BBD6A2072506200C25067 /* Build configuration list for PBXNativeTarget "Project1" */;
+			buildConfigurationList = 9F1BBD6A2072506200C25067 /* Build configuration list for PBXNativeTarget "Project3" */;
 			buildPhases = (
 				9F1BBD542072506100C25067 /* Sources */,
 				9F1BBD552072506100C25067 /* Frameworks */,
@@ -117,9 +123,9 @@
 			);
 			dependencies = (
 			);
-			name = Project1;
+			name = Project3;
 			productName = Project1;
-			productReference = 9F1BBD582072506100C25067 /* Project1.app */;
+			productReference = 9F1BBD582072506100C25067 /* Project3.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -137,7 +143,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9F1BBD532072506100C25067 /* Build configuration list for PBXProject "Project1" */;
+			buildConfigurationList = 9F1BBD532072506100C25067 /* Build configuration list for PBXProject "Project3" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -150,7 +156,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9F1BBD572072506100C25067 /* Project1 */,
+				9F1BBD572072506100C25067 /* Project3 */,
 			);
 		};
 /* End PBXProject section */
@@ -169,6 +175,7 @@
 				9F1BBD782072549F00C25067 /* nssl0049.jpg in Resources */,
 				9F1BBD7D2072549F00C25067 /* nssl0041.jpg in Resources */,
 				9F1BBD7E2072549F00C25067 /* nssl0042.jpg in Resources */,
+				9F7C5E152073290600E5EBEE /* DetailViewController.xib in Resources */,
 				9F1BBD662072506200C25067 /* LaunchScreen.storyboard in Resources */,
 				9F1BBD632072506200C25067 /* Assets.xcassets in Resources */,
 				9F1BBD7B2072549F00C25067 /* nssl0045.jpg in Resources */,
@@ -183,6 +190,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F7C5E142073290600E5EBEE /* DetailViewController.swift in Sources */,
 				9F1BBD5E2072506100C25067 /* ViewController.swift in Sources */,
 				9F1BBD5C2072506100C25067 /* AppDelegate.swift in Sources */,
 			);
@@ -335,7 +343,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rustteam.Project1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rustteam.Project3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -353,7 +361,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.rustteam.Project1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rustteam.Project3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -363,7 +371,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9F1BBD532072506100C25067 /* Build configuration list for PBXProject "Project1" */ = {
+		9F1BBD532072506100C25067 /* Build configuration list for PBXProject "Project3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9F1BBD682072506200C25067 /* Debug */,
@@ -372,7 +380,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9F1BBD6A2072506200C25067 /* Build configuration list for PBXNativeTarget "Project1" */ = {
+		9F1BBD6A2072506200C25067 /* Build configuration list for PBXNativeTarget "Project3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9F1BBD6B2072506200C25067 /* Debug */,

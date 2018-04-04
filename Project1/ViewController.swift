@@ -15,18 +15,16 @@ class ViewController: UITableViewController {
         super.viewDidLoad()
         navigationController?.navigationBar.prefersLargeTitles = true
         title = "Storm Viewer"
-        // Do any additional setup after loading the view, typically from a nib.
         let fm = FileManager.default
         let path = Bundle.main.resourcePath!
         let items = try! fm.contentsOfDirectory(atPath: path)
         
         for item in items {
-            if item.hasPrefix("nssl") {
+            if item.hasSuffix(".jpg") {
                 pictures.append(item)
             }
         }
-        
-        print(pictures)
+        // Do any additional setup after loading the view, typically from a nib.
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
